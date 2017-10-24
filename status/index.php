@@ -57,7 +57,14 @@
                                 <tr class="an-trow">
                                     <td><strong>1</strong> </td>
                                     <td>[2.38] Archon Network Any</td>
-                                    <td>Online </td>
+                                    <td><?php $check1 = fsockopen("archonetwork.net", "12200");
+
+if ($check1) {
+  echo ("<span class='online'>" . Online . "</span>");
+  $close = fclose($check1);
+} 
+else
+  echo ("<span class='offline'>" . Offline . "</span>"); ?> </td>
                                     <td>12200 </td>
                                     <td>Any </td>
                                     <td>8 </td>
@@ -65,7 +72,14 @@
                                 <tr class="an-trow">
                                     <td><strong>2</strong> </td>
                                     <td>[2.38] Archon Network Any</td>
-                                    <td>Online </td>
+                                    <td><?php $check1 = fsockopen("ror.archonetwork.net", "12300");
+
+if ($check1) {
+  echo ("<span class='online'>" . Online . "</span>");
+  $close = fclose($check1);
+} 
+else
+  echo ("<span class='offline'>" . Offline . "</span>"); ?> </td>
                                     <td>12300 </td>
                                     <td>Any </td>
                                     <td>8 </td>
@@ -73,7 +87,14 @@
                                 <tr class="an-trow">
                                     <td><strong>3</strong> </td>
                                     <td>[2.38] Archon Network Neo</td>
-                                    <td>Online </td>
+                                    <td><?php $check1 = fsockopen("archonetwork.net", "12014");
+
+if ($check1) {
+  echo ("<span class='online'>" . Online . "</span>");
+  $close = fclose($check1);
+} 
+else
+  echo ("<span class='offline'>" . Offline . "</span>"); ?> </td>
                                     <td>12014 </td>
                                     <td>Neo </td>
                                     <td>8 </td>
@@ -102,7 +123,14 @@
                                 <tr class="an-trow">
                                     <td><strong>1</strong> </td>
                                     <td>[2.37] Archon Network Any</td>
-                                    <td>Online </td>
+                                    <td><?php $check1 = fsockopen("archonetwork.net", "12001");
+
+if ($check1) {
+  echo ("<span class='online'>" . Online . "</span>");
+  $close = fclose($check1);
+} 
+else
+  echo ("<span class='offline'>" . Offline . "</span>"); ?> </td>
                                     <td>12001</td>
                                     <td>Any </td>
                                     <td>10 </td>
@@ -110,7 +138,14 @@
                                 <tr class="an-trow">
                                     <td><strong>2</strong> </td>
                                     <td>[2.37] Archon Network Any</td>
-                                    <td>Online </td>
+                                    <td><?php $check1 = fsockopen("ror.archonetwork.net", "12002");
+
+if ($check1) {
+  echo ("<span class='online'>" . Online . "</span>");
+  $close = fclose($check1);
+} 
+else
+  echo ("<span class='offline'>" . Offline . "</span>"); ?> </td>
                                     <td>12002 </td>
                                     <td>Any </td>
                                     <td>10 </td>
@@ -139,7 +174,14 @@
                                 <tr class="an-trow">
                                     <td><strong>1</strong> </td>
                                     <td>[2.38] JDPS</td>
-                                    <td>Online </td>
+                                    <td><?php $check1 = fsockopen("archonetwork.net", "12006");
+
+if ($check1) {
+  echo ("<span class='online'>" . Online . "</span>");
+  $close = fclose($check1);
+} 
+else
+  echo ("<span class='offline'>" . Offline . "</span>"); ?> </td>
                                     <td>12006 </td>
                                     <td>Any </td>
                                     <td>10 </td>
@@ -147,7 +189,14 @@
                                 <tr class="an-trow">
                                     <td><strong>2</strong> </td>
                                     <td>[2.38] WISD</td>
-                                    <td>Online </td>
+                                    <td><?php $check1 = fsockopen("ror.archonetwork.net", "12400");
+
+if ($check1) {
+  echo ("<span class='online'>" . Online . "</span>");
+  $close = fclose($check1);
+} 
+else
+  echo ("<span class='offline'>" . Offline . "</span>"); ?> </td>
                                     <td>12400 </td>
                                     <td>Any </td>
                                     <td>10 </td>
@@ -155,7 +204,14 @@
                                 <tr class="an-trow">
                                     <td><strong>3</strong> </td>
                                     <td>[2.38] NCPS</td>
-                                    <td>Online </td>
+                                    <td><?php $check1 = fsockopen("ror.archonetwork.net", "12011");
+
+if ($check1) {
+  echo ("<span class='online'>" . Online . "</span>");
+  $close = fclose($check1);
+} 
+else
+  echo ("<span class='offline'>" . Offline . "</span>"); ?> </td>
                                     <td>12011 </td>
                                     <td>Any </td>
                                     <td>Unlimited </td>
@@ -163,7 +219,14 @@
                                 <tr class="an-trow">
                                     <td><strong>4</strong> </td>
                                     <td>[2.38] GHCS</td>
-                                    <td>Online </td>
+                                    <td><?php $check1 = fsockopen("ror.archonetwork.net", "12007");
+
+if ($check1) {
+  echo ("<span class='online'>" . Online . "</span>");
+  $close = fclose($check1);
+} 
+else
+  echo ("<span class='offline'>" . Offline . "</span>"); ?> </td>
                                     <td>12007 </td>
                                     <td>Any </td>
                                     <td>Unlimited </td>
