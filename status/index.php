@@ -22,8 +22,12 @@
                     <li class="nav-item an-links" role="presentation"><a class="nav-link" href="../index.html">Home </a></li>
                     <li class="nav-item an-links" role="presentation"><a class="nav-link active" href="#">Status </a></li>
                     <li class="nav-item an-links" role="presentation"><a class="nav-link" href="../purchase.html">Purchase </a></li>
-                    <li class="dropdown nav-item an-links"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">More </a>
-                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="../tos.html">Terms of Service</a><a class="dropdown-item" role="presentation" href="https://discord.gg/j2KzKBF" target="_blank">Discord </a></div>
+                    <li class="dropdown an-links"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">More </a>
+                        <div class="dropdown-menu" role="menu">
+                            <a class="dropdown-item" role="presentation" href="../tos.html">Terms of Service</a>
+                            <a class="dropdown-item" role="presentation" href="../docs/index.html">Docs</a>
+                            <a class="dropdown-item" role="presentation" href="https://discord.gg/j2KzKBF" target="_blank">Discord </a>
+                        </div>
                     </li>
                 </ul>
             </div>
